@@ -1,0 +1,17 @@
+{
+  "name": "la-nacion-callenge",
+  "version": "1.0.0",
+  "description": "La Nacion Challenge",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd la-nacion && npm install && cd ../laNacion-backend && npm install",
+    "start": "concurrently \"cd laNacion-backend && npm run dev\" \"cd la-nacion && npm run dev\"",
+    "generate": "cd laNacion-backend && npm run generate"
+  },
+  "keywords": [],
+  "author": "Tomas Manuel Perez",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
