@@ -20,6 +20,6 @@
     "resolveJsonModule": true,
     "importHelpers": true
   },
-  "include": ["src/**/*.ts", "src/**/*.json", ".env", "src/__test__/api.test.ts"],
+  "include": ["src/**/*.ts", "src/**/*.json", ".env"],
   "exclude": ["node_modules"]
 }
