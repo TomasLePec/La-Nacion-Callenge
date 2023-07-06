@@ -7,8 +7,8 @@ App for La Nacion:
 
 Environment variables on /laNacion-backend directory: 
  - DB_HOST=localhost by default
- - DB_USER=your_user
- - DB_PASSWORD=your_password
+ - DB_USER=your_mySql_user
+ - DB_PASSWORD=your_mySql_password
  - DB_NAME=name_of_database
 
 You have two options to run the project:
