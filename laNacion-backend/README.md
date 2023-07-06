@@ -43,7 +43,7 @@ The base URL for all API endpoints is: `localhost:PORT`. If the environment vari
   "product_name": string,
   "description": string,
   "price": number,
-  "status_id": 1 | 0,
+  "status_id": 1 | 2,
   "category_id": 1 | 2 | 3
  }
   ```
@@ -56,7 +56,7 @@ The base URL for all API endpoints is: `localhost:PORT`. If the environment vari
   "product_name": string,
   "description": string,
   "price": number,
-  "status_id": 1 | 0,
+  "status_id": 1 | 2,
   "category_id": 1 | 2 | 3
  }
 ```
